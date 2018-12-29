@@ -1,0 +1,53 @@
+body{
+  -web-kit-appearance: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  h1{
+      text-align: center;
+      font-weight: bolder;
+  }
+  .buttons{
+    text-align: center;
+    position: relative;
+    top: 15px;
+  }
+  footer{
+    position:relative;
+    top:500px;
+    margin:0;
+    padding:0;
+  display:-webkit-inline-flex;
+  box-sizing:border-box;
+
+  }
+  ul .foot{
+    flex-direction: row;
+  }
+  
+  .foot li{
+    text-align: center;
+    padding: 10px 12px;
+  }
